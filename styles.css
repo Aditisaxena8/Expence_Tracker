@@ -1,0 +1,118 @@
+* {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  margin: 1rem;
+}
+
+header {
+  background-color: #378fed;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+
+.formdiv {
+  justify-self: center;
+  border: 2px solid #cbc7c7;
+  border-radius: 10px;
+  width: 50%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+}
+
+form {
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  min-width: 300px;
+  padding: 1rem;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input {
+  border: 2px solid #378fed;
+  border-radius: 5px;
+  height: 30px;
+  width: 290px;
+  padding-left: 3%;
+  margin: 10px 0;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #378fed;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form input:hover {
+  border: 2px solid purple;
+}
+
+form button:hover {
+  background-color: purple;
+  font-weight: bolder;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.filterdiv {
+  justify-self: center;
+  border: 2px solid #cbc7c7;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  width: 100%;
+  padding: 20px;
+}
+
+.filterdiv input {
+  border: 2px solid #378fed;
+  border-radius: 5px;
+  height: 30px;
+  width: 290px;
+  padding-left: 3%;
+  margin: 10px 0;
+}
+
+.filterdiv label {
+  font-weight: bold;
+}
+
+table th,
+table td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+}
+
+table th {
+  background-color: #f0f0f0;
+}
+
+#filterCategory,
+#filterDate {
+  margin: 0.5rem;
+}
